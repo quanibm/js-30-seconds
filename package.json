@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon --config nodemon_dev.json    TestEveryDay/index.ts"
+    "dev": "nodemon  --config nodemon_dev.json    TestEveryDay/index.ts"
   },
   "dependencies": {
     "nodemon": "^2.0.2",

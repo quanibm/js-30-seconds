@@ -11,7 +11,8 @@
       "processId": "${command:PickProcess}",
       "skipFiles": ["<node_internals>/**"],
       "restart": true,
-      "protocol": "inspector"
+      "protocol": "inspector",
+      "sourceMaps": true
     }
   ]
 }
