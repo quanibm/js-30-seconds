@@ -1,0 +1,17 @@
+{
+  "name": "typescript-5i4anz",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --config nodemon_dev.json    TestEveryDay/index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "rxjs": "^6.5.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4"
+  }
+}

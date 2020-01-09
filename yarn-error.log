@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/anaconda3/envs/dev/bin/node /usr/local/anaconda3/envs/dev/bin/yarn add tsnode
+
+PATH: 
+  /usr/local/anaconda3/envs/dev/bin:/usr/local/anaconda3/condabin:/usr/local/anaconda3/bin:/usr/local/bin:/usr/local/sbib:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbib:/usr/local/opt/php@7.2/sbin:/usr/local/opt/php@7.2/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tsnode: Not found
+      at Request.params.callback [as _callback] (/usr/local/anaconda3/envs/dev/lib/node_modules/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/local/anaconda3/envs/dev/lib/node_modules/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/anaconda3/envs/dev/lib/node_modules/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/anaconda3/envs/dev/lib/node_modules/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "typescript-5i4anz",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "rxjs": "^6.5.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
